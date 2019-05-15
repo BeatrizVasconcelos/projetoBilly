@@ -12,6 +12,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { CardapioComponent } from './cardapio/cardapio.component';
 import { ProdutosComponent } from './cardapio/produtos/produtos.component'
 import { CardapioService } from './cardapio/cardapio.service';
+import { DetalhesProdutosComponent } from './detalhes-produtos/detalhes-produtos.component';
+import { MenuComponent } from './detalhes-produtos/menu/menu.component';
+import { CarrinhoComponent } from './detalhes-produtos/carrinho/carrinho.component';
+import { MenuItemComponent } from './detalhes-produtos/menu-item/menu-item.component';
+import { AvaliacoesComponent } from './detalhes-produtos/avaliacoes/avaliacoes.component';
 
 
 @NgModule({
@@ -21,7 +26,12 @@ import { CardapioService } from './cardapio/cardapio.service';
     HomeComponent,
     AboutComponent,
     CardapioComponent,
-    ProdutosComponent
+    ProdutosComponent,
+    DetalhesProdutosComponent,
+    MenuComponent,
+    CarrinhoComponent,
+    MenuItemComponent,
+    AvaliacoesComponent
   ],
   imports: [
     BrowserModule,

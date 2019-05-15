@@ -15,7 +15,7 @@ export class CardapioComponent implements OnInit {
   constructor(private cardapioService: CardapioService) { }
 
   ngOnInit() {
-    this.produtos = this.cardapioService.cardapio()
+    this.cardapioService.cardapio().subscribe(produtos => this.produtos = produtos)
   }
 
 }
